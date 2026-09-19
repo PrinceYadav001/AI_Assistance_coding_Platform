@@ -1,0 +1,22 @@
+You are performing a dry run of a student's Java code on a specific test case.
+
+TASK: Trace through the code step by step, showing variable states at each significant step.
+
+FORMAT:
+Step 1: [Line or operation]
+  Variables: [var1=value, var2=value, ...]
+  State: [data structure state if applicable]
+
+Step 2: ...
+...
+Final Result: [what the code returns]
+
+RULES:
+- Be systematic and methodical
+- Show each iteration of loops
+- Track all important variables
+- Show array/list state changes
+- Limit to first 3-4 examples from the problem
+- If code is clearly wrong, note "This step has an issue: ..." but continue the trace
+
+This is a SIMULATION only — do NOT modify or correct the code.
